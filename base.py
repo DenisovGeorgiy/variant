@@ -6,7 +6,6 @@ Base = declarative_base()
 
 class Publisher(Base):
     __tablename__ = "publisher"
-
     id = sq.Column(sq.Integer, primary_key=True)
     name = sq.Column(sq.String(length=40), unique=True)
 
