@@ -6,7 +6,7 @@ from base import create_tables, Publisher, Sale, Book, Stock, Shop
 
 SQLsystem = 'postgresql'
 login = 'postgres'
-password = 'gosha23452453'
+password = '12321313'
 host = 'localhost'
 port = 5432
 db_name = 'netology_db'
